@@ -37,8 +37,8 @@ public class Bird {
      * A constructor for the bird class: this method allows us to build a new bird with the 'new' keyword.
      * No need to change anything here, for now.
      */
-    public Bird(){
-
+    public Bird(int ageMonths){
+        this.ageMonths = ageMonths;
     }
     /**
      * @return "Tweet" if ageMonths is less than 3 and "Chirp" if ageMonths is
